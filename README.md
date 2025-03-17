@@ -11,11 +11,16 @@ Dashboard ini dibangun menggunakan [Streamlit](https://streamlit.io/) dan bebera
 - **Penggunaan Data Dummy:** Jika file data atau model tidak ditemukan, dashboard akan menghasilkan data contoh untuk demonstrasi.
 
 ## Struktur Proyek
-├── app.py # File utama Streamlit yang berisi kode dashboard 
+├── app.py # File utama Streamlit yang berisi kode dashboard
+
 ├── catboost_model_top.pkl # Model CatBoost terlatih 
+
 ├── data_prediction.csv # Data prediksi
+
 ├── churn_dataset_clean.csv # Dataset pembersihan untuk analisis churn 
+
 ├── icon.png # Icon untuk sidebar 
+
 └── README.md 
 
 
